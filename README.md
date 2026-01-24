@@ -22,6 +22,6 @@ _Modified from [ani-altstore-source](https://github.com/maxchang3/ani-altstore-s
 <!-- Badges -->
 
 [license-src]: https://img.shields.io/github/license/WingChunWong/Kazumi-AltStore-Source.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/WingChunWong/Kazumi-AltStore-Source/blob/main/LICENSE
+[license-href]: https://github.com/WingChunWong/Kazumi-AltStore-Source/blob/kazumi/LICENSE
 [workflow-src]: https://img.shields.io/github/actions/workflow/status/WingChunWong/kazumi-altstore-source/update-generated.yml?style=flat&colorA=080f12&colorB=1fa669
 [workflow-href]: https://github.com/WingChunWong/kazumi-altstore-source/actions/workflows/update-generated.yml
