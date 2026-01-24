@@ -3,7 +3,7 @@
 [![License][license-src]][license-href] 
 [![Workflow State][workflow-src]][workflow-href]
 
-此项目为 [Kazumi](https://github.com/Predidit/Kazumi) 的 AltStore 源，Kazumi 是一个使用 Flutter 开发的基于自定义规则的番剧采集与在线观看程序。。
+此项目为 [Kazumi](https://github.com/Predidit/Kazumi) 的 AltStore 源，Kazumi 是一个使用 Flutter 开发的基于自定义规则的番剧采集与在线观看程序。
 
 可以用于 [AltStore](https://altstore.io/)、[SideStore](https://sidestore.io/)、[LiveContainer](https://github.com/LiveContainer/LiveContainer) 等支持 AltStore 源格式的应用。
 
