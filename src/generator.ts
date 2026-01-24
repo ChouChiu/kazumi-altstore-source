@@ -2,10 +2,8 @@ import { fetchReleases } from './api'
 import type { App, Source, SourceVersion } from './types'
 import { releaseToSourceVersion } from './utils'
 
-const isBetaVersion = (version: string) => version.includes('alpha') || version.includes('beta')
-
-const appTemplate = (baseName: string): Omit<App, 'versions'> => ({
-  name: baseName,
+const appTemplate = (): Omit<App, 'versions'> => ({
+  name: 'Kazumi',
   bundleIdentifier: 'com.example.kazumi',
   developerName: 'Predidit',
   localizedDescription:
@@ -44,26 +42,9 @@ export const generateSource = async (): Promise<Source> => {
     console.warn(`[warn] 过滤掉了 ${filteredCount} 个无效的版本`)
   }
 
-  const stableVersions: SourceVersion[] = []
-  const betaVersions: SourceVersion[] = []
-
-  for (const version of allVersions) {
-    if (isBetaVersion(version.version)) {
-      betaVersions.push(version)
-    } else {
-      stableVersions.push(version)
-    }
-  }
-
-  const stableApp: App = {
-    ...appTemplate('Kazumi'),
-    versions: stableVersions,
-  }
-
-  const betaApp: App = {
-    ...appTemplate('Kazumi (Beta)'),
-    versions: betaVersions,
-    bundleIdentifier: 'com.predidit.Kazumi.beta',
+  const app: App = {
+    ...appTemplate(),
+    versions: allVersions,
   }
 
   const source: Source = {
@@ -72,8 +53,8 @@ export const generateSource = async (): Promise<Source> => {
       'https://github.com/Predidit/Kazumi/blob/main/assets/images/logo/logo_ios.png?raw=true',
     website: 'https://kazumi.app',
     tintColor: '#57cd67',
-    featuredApps: [stableApp.bundleIdentifier],
-    apps: [stableApp, betaApp],
+    featuredApps: [app.bundleIdentifier],
+    apps: [app],
     news: [],
   }
 
