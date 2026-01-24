@@ -37,7 +37,7 @@
           "localizedDescription": "- 新增自定义HTTP代理支持 (#1205 #1221) (@0Chencc)\r\n- 修复日志页面日志过多可能导致应用冻结的问题 (#1607) (@Predidit)\r\n- 修复windows平台无法在包含非ASCII路径下运行的问题 (@Predidit)\r\n- 修复linux平台视频解析器偶发的崩溃问题 (@Predidit)\r\n- 其他UI调整 (@0Chencc)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.4/Kazumi_ios_1.9.4_no_sign.ipa",
           "size": 27452591,
-          "buildVersion": "10000",
+          "buildVersion": "10904",
           "minOSVersion": "14.0"
         },
         {
@@ -46,7 +46,7 @@
           "localizedDescription": "- 新增实验性HLS广告过滤功能 (@0Chencc)\r\n- 现在可以禁用自动连播 (#1544) (@Predidit)\r\n- 其他UI修复 (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从4升级到5以支持广告过滤，向前兼容",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.3/Kazumi_ios_1.9.3_no_sign.ipa",
           "size": 27422458,
-          "buildVersion": "10000",
+          "buildVersion": "10903",
           "minOSVersion": "14.0"
         },
         {
@@ -55,7 +55,7 @@
           "localizedDescription": "- 新增 macOS 快捷操作支持 (@yaoyaozijing)\r\n- 修复桌面平台长按快进不生效的问题 (#1536) (@yaoyaozijing)\r\n- 修复 Linux 平台超分辨率可能导致视频闪烁的问题 (@Predidit)\r\n- 修复 Linux 平台偶发的渲染错误 (@Predidit)\r\n- 更好的 windows 平台错误处理 (#1520) (#1538) (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.2/Kazumi_ios_1.9.2_no_sign.ipa",
           "size": 27608465,
-          "buildVersion": "10000",
+          "buildVersion": "10902",
           "minOSVersion": "14.0"
         },
         {
@@ -64,7 +64,7 @@
           "localizedDescription": "- 新增弹幕加载状态指示器 (@0Chencc)\r\n- 新增桌面平台自定义快捷键功能 (@yaoyaozijing)\r\n- 修复弹幕无法使用系统字体的问题 (#1526) (@Predidit)\r\n- 改进的日志记录模块 (@Predidit)\r\n- 修复 Linux 平台内存泄漏问题 (@Predidit)\r\n- 修复 Linux 平台非 Gnome 环境无法隐藏标题栏的问题 (@Predidit)\r\n- 修复 Linux 平台 Wayland 图标为默认值的问题 (@yaoyaozijing)\r\n- 优化 Linux 平台播放器性能 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.1/Kazumi_ios_1.9.1_no_sign.ipa",
           "size": 27607497,
-          "buildVersion": "10000",
+          "buildVersion": "10901",
           "minOSVersion": "14.0"
         },
         {
@@ -73,7 +73,7 @@
           "localizedDescription": "> [!NOTE]\r\n> 这是 1.8.9 的热修复版本，更多更新日志参考 1.8.9",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.0/Kazumi_ios_1.9.0_no_sign.ipa",
           "size": 27580420,
-          "buildVersion": "10000",
+          "buildVersion": "10900",
           "minOSVersion": "14.0"
         },
         {
@@ -82,7 +82,7 @@
           "localizedDescription": "- 新增内嵌字体与系统字体切换功能 (@Predidit)\r\n- 新增弹幕行高设定功能 (@Predidit)\r\n- 新增 Linux 平台显示协议检测功能 (@Predidit)\r\n- 修复特定情况下无法视频截图的问题 (@ErBWs)\r\n- 修复 windows 平台重复打开应用可能拉起其他 flutter 应用的问题 (@Predidit)\r\n- 修复 Linux 平台视频控制面板在某些设备上可能闪烁的问题 (@Predidit)\r\n- 修复特定情况下弹幕速度与设置不匹配的问题 (@Predidit)\r\n- 优化低分辨率桌面设备UI布局 (@Predidit)\r\n- 优化弹幕性能 (@Predidit)\r\n- 其他UI修复 (@ErBWs)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.9/Kazumi_ios_1.8.9_no_sign.ipa",
           "size": 27580433,
-          "buildVersion": "10000",
+          "buildVersion": "10809",
           "minOSVersion": "14.0"
         },
         {
@@ -91,7 +91,7 @@
           "localizedDescription": "- 适配 flutter 3.38 (@Predidit)\r\n- 新增新番时间表过滤功能 (#1142) (@0Chencc)\r\n- 新增弹幕速度是否跟随视频倍速的开关 (#1233) (@0Chencc)\r\n- 重构历史记录代码逻辑 (@0Chencc)\r\n- 现在 windows 平台重复启动 kazumi 将自动拉起已存在窗体 (@0Chencc)\r\n- 现在 Linux 平台使用DE原生标题栏而非GTK标题栏 (@yaoyaozijing)\r\n- 修复 Linux 平台视频帧率在特定情况下被锁定为15帧的问题 (@Predidit)\r\n- 修复 winodws 平台发生本地储存错误时静默失败的问题 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.8/Kazumi_ios_1.8.8_no_sign.ipa",
           "size": 22127910,
-          "buildVersion": "10000",
+          "buildVersion": "10808",
           "minOSVersion": "14.0"
         },
         {
@@ -100,7 +100,7 @@
           "localizedDescription": "- 新增规则测试功能 (#1438) (@1312853182)\r\n- 新增弹幕调速功能 (#1331) (@Predidit)\r\n- 新增检索结果过滤功能 (@aliferne)\r\n- 优化资源检索逻辑 (@Predidit)\r\n- 更多的弹幕区域选项 (#1335) (@aliferne)\r\n- 修复 windows 平台启动时的闪烁问题 (@Predidit)\r\n- 轮换示例规则 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.7/Kazumi_ios_1.8.7_no_sign.ipa",
           "size": 22020941,
-          "buildVersion": "10000",
+          "buildVersion": "10807",
           "minOSVersion": "14.0"
         },
         {
@@ -109,7 +109,7 @@
           "localizedDescription": "- 修复 Linux 平台无法运行的问题 (@Predidit)\r\n- 现在可以自定义播放器日志等级 (@Predidit)\r\n> [!NOTE]\r\n> 这是 1.8.5 的热修复版本，更多更新日志参考 1.8.5",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.6/Kazumi_ios_1.8.6_no_sign.ipa",
           "size": 21996275,
-          "buildVersion": "10000",
+          "buildVersion": "10806",
           "minOSVersion": "14.0"
         },
         {
@@ -118,7 +118,7 @@
           "localizedDescription": "- 实现 linux 平台零拷贝视频解码 (@Predidit)\r\n- 新增快捷键快进步长自定义功能 (#1373) (#1418) (@aliferne)\r\n- 现在记忆跳过片头按钮的快进步长 (@aliferne)\r\n- 修复部分评论内容空白的问题 (@aliferne)\r\n- 优化自动更新逻辑 (@ErBWs)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.5/Kazumi_ios_1.8.5_no_sign.ipa",
           "size": 21995635,
-          "buildVersion": "10000",
+          "buildVersion": "10805",
           "minOSVersion": "14.0"
         },
         {
@@ -127,7 +127,7 @@
           "localizedDescription": "- 修复 windows 平台硬件解码可能发生闪烁的问题 (#1390) (@Predidit)\r\n- 修复 android 平台自动更新可能导致应用安装器意外退出的问题 (#1382) (@Predidit)\r\n- 更新 UA 列表 (@Predidit)\r\n> [!NOTE]\r\n> 这是 1.8.3 的热修复版本，更多更新日志参考 1.8.3",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.4/Kazumi_ios_1.8.4_no_sign.ipa",
           "size": 21993484,
-          "buildVersion": "10000",
+          "buildVersion": "10804",
           "minOSVersion": "14.0"
         },
         {
@@ -136,7 +136,7 @@
           "localizedDescription": "- 实现 windows 平台零拷贝视频解码 (@Predidit)\r\n- 修复 Linux 平台硬件解码概率不生效的问题 (#1015) (#1282) (@Predidit)\r\n- 修复 Linux 平台播放视频时偶发的闪烁问题 (#546) (#1083) (@Predidit)\r\n- 修复推荐页面分类菜单的动画渲染问题 (#1322) (@Predidit)\r\n- 优化 windows 平台程序大小 (@Predidit)\r\n- 新增播放器动画开关 (@Predidit)\r\n- 现在第一次使用质量档超分辨率将触发性能提示 (@UzawaReisaQwQ)\r\n- 其他UI修复 (#1344) (@aliferne)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.3/Kazumi_ios_1.8.3_no_sign.ipa",
           "size": 21993496,
-          "buildVersion": "10000",
+          "buildVersion": "10803",
           "minOSVersion": "14.0"
         },
         {
@@ -145,7 +145,7 @@
           "localizedDescription": "- 新增新番时间表排序功能 (@Predidit)\r\n- 改进 Linux 平台视频解析器 (#1055) (@Predidit)\r\n- 修复 Windows 平台退出全屏可能UI冻结的问题 (#1178) (@Predidit)\r\n- 修复自动更新功能可能的URL解析错误 (@UzawaReisaQwQ)\r\n- 修复播放器调试日志无法响应式更新的问题 (@Predidit)\r\n- 修复可能的UI布局问题 (#1323) (@Predidit)\r\n- 现在番剧规则查询可以被优雅地取消 (@Predidit)\r\n- 轮换示例规则 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.2/Kazumi_ios_1.8.2_no_sign.ipa",
           "size": 21996984,
-          "buildVersion": "10000",
+          "buildVersion": "10802",
           "minOSVersion": "14.0"
         },
         {
@@ -154,7 +154,7 @@
           "localizedDescription": "- 修复新版 windows 视频解析器的内存泄漏 (@Predidit)\r\n- 调整历史记录页面样式 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.1/Kazumi_ios_1.8.1_no_sign.ipa",
           "size": 21990221,
-          "buildVersion": "10000",
+          "buildVersion": "10801",
           "minOSVersion": "14.0"
         },
         {
@@ -163,7 +163,7 @@
           "localizedDescription": "- 重新设计的 windows 平台视频解析器 (@Predidit)\r\n- 优化 iOS/ macOS 平台性能，现在可以同时使用弹幕和超分辨率 (#1314) (@ErBWs)\r\n- 新增搜索历史功能 (@Predidit)\r\n- UI 调整 (@Predidit)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.8.0/Kazumi_ios_1.8.0_no_sign.ipa",
           "size": 21989645,
-          "buildVersion": "10000",
+          "buildVersion": "10800",
           "minOSVersion": "14.0"
         },
         {
@@ -172,7 +172,7 @@
           "localizedDescription": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 改进的番组趋势页面 (@Predidit)\r\n- 修复 webdav 无法同步追番列表的问题 (#1263) (#1266) (@floating142)\r\n- 修复特定情况下 windows 快捷键不生效的问题 (#858) (@INKCR0W)\r\n- 调整历史记录页面视觉效果 (@Predidit)\r\n> [!NOTE]\r\n> 由于flutter 3.35中的错误，安卓平台原有 1.7.7 版本需要全新安装而非升级安装",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.9/Kazumi_ios_1.7.9_no_sign.ipa",
           "size": 21992363,
-          "buildVersion": "10000",
+          "buildVersion": "10709",
           "minOSVersion": "14.0"
         },
         {
@@ -181,7 +181,7 @@
           "localizedDescription": "- 优化安卓平台性能，现在旗舰处理器可以同时使用弹幕和超分辨率 (#1262) (@Predidit)\r\n- 修复 windows 平台在 1.7.7 版本性能降级的问题 (@Predidit)\r\n- 修复特定情况下 webdav 追番列表同步失败的问题 (@floating142)\r\n- 修复 macOS 平台自动更新功能无法使用的问题 (@ErBWs)\r\n- 更好的弹幕自动匹配算法 (@Predidit)\r\n- 优化安卓平台安装包大小 (#1210) (@Predidit)\r\n- 其他UI改进 (@ErBWs)\r\n> [!NOTE]\r\n> 由于flutter 3.35中的错误，安卓平台需要全新安装而非升级安装此版本",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.8/Kazumi_ios_1.7.8_no_sign.ipa",
           "size": 21951356,
-          "buildVersion": "10000",
+          "buildVersion": "10708",
           "minOSVersion": "14.0"
         },
         {
@@ -190,7 +190,7 @@
           "localizedDescription": "- 适配 flutter 3.35 (@Predidit)\r\n- 重构 Linux 平台视频解析器 (#1055) (@Predidit)\r\n- 修复桌面平台 webdav 自动同步不稳定的问题 (#1179) (@floating142)\r\n- 修复详情页返回搜索页时输入法总是弹出的问题 (#1057) (@floating142)\r\n- 调整弹幕设置页面视觉效果 (@ErBWs)\r\n- 改进的 android/iOS/macOS 视频解析器调试日志 (@KotaHv)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.7/Kazumi_ios_1.7.7_no_sign.ipa",
           "size": 22002778,
-          "buildVersion": "10000",
+          "buildVersion": "10707",
           "minOSVersion": "14.0"
         },
         {
@@ -199,7 +199,7 @@
           "localizedDescription": "- **重构 android/macOS/iOS 平台视频解析器** (@KotaHv)\r\n- 修复部分荣耀设备上的闪退问题 (@KotaHv) (#681)\r\n- 修复特定情况下的弹幕重复问题 (@Predidit)\r\n- 修复搜索页面使用空关键词会返回上一页面的问题 (@floating142) (#1114)\r\n- 现在支持记忆视频比例设置 (@yaoyaozijing) (#887)\r\n- 改进的 webdav 错误处理 (@floating142) (#1154)\r\n- 改进的更新检测机制 (@LeetaoGoooo) (#1024)\r\n- 现在 macOS 菜单栏内容为简体中文 (@ErBWs) (#1125)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.6/Kazumi_ios_1.7.6_no_sign.ipa",
           "size": 39427173,
-          "buildVersion": "10000",
+          "buildVersion": "10706",
           "minOSVersion": "14.0"
         },
         {
@@ -208,7 +208,7 @@
           "localizedDescription": "- 新增安卓平台低延时音频功能 (@Predidit) (#1074)\r\n- 修复特定情况下播放器控制面板无法呼出的问题 (@Predidit) (#1100)\r\n- 修复弹幕字体大小浮点数的精度问题 (@floating142) (#1062)\r\n- 调整 webdav 自动同步策略 (@Predidit)\r\n- 现在禁用 webdav 将连锁禁用自动同步 (@Predidit) (#1102)\r\n- 轮换示例规则 (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.5/Kazumi_ios_1.7.5_no_sign.ipa",
           "size": 38615274,
-          "buildVersion": "10000",
+          "buildVersion": "10705",
           "minOSVersion": "14.0"
         },
         {
@@ -217,7 +217,7 @@
           "localizedDescription": "- 支持自定义 syncplay 服务器 (@Predidit)\r\n- 修复一起看无法使用的问题 (#1064) (@Predidit)\r\n- 修复特定情况下分集评论溢出的问题 (#1036) (@ErBWs)\r\n- 修复特定情况下历史记录卡片溢出的问题 (#1017) (@Predidit)\r\n- 修复特定情况下 Linux 图标不显示的问题 (@EricwanAR)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.4/Kazumi_ios_1.7.4_no_sign.ipa",
           "size": 38618937,
-          "buildVersion": "10000",
+          "buildVersion": "10704",
           "minOSVersion": "14.0"
         },
         {
@@ -226,7 +226,7 @@
           "localizedDescription": "- 更好的 HTTP 标头随机性 (@Predidit)\r\n- 修复历史记录卡片内容可能溢出的问题 (@ErBWs) (#1013)\r\n- 轮换示例规则 (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.3/Kazumi_ios_1.7.3_no_sign.ipa",
           "size": 38592780,
-          "buildVersion": "10000",
+          "buildVersion": "10703",
           "minOSVersion": "14.0"
         },
         {
@@ -235,7 +235,7 @@
           "localizedDescription": "- 适配 flutter 3.32 (@Predidit)\r\n- 适配 android 16k 内存分页 (@Predidit)\r\n- 改进的应用内提示 (@ErBWs)\r\n- 现在软件解码模式将禁用纹理加速以提高兼容性 (#984) (@Predidit)\r\n- 轮换示例规则 (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.2/Kazumi_ios_1.7.2_no_sign.ipa",
           "size": 38475880,
-          "buildVersion": "10000",
+          "buildVersion": "10702",
           "minOSVersion": "14.0"
         },
         {
@@ -244,7 +244,7 @@
           "localizedDescription": "- 优化搜索页面视觉效果 (@ErBWs)\r\n- 优化图片裁切性能 (@ErBWs)\r\n- 修复查看特定番剧制作人员可能弹出错误提示的问题 (@Predidit)\r\n- 现在支持更长的弹幕屏蔽正则表达式 (#952) (@Predidit)\r\n- 移除 windows 平台上的冗余解码器 (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.1/Kazumi_ios_1.7.1_no_sign.ipa",
           "size": 39110772,
-          "buildVersion": "10000",
+          "buildVersion": "10701",
           "minOSVersion": "14.0"
         },
         {
@@ -253,7 +253,7 @@
           "localizedDescription": "- 新增弹幕关键词屏蔽功能 (#846 #474) (@Predidit)\r\n- 重新设计的视频详情选项卡 (@Predidit)\r\n- 优化软件解码性能 (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.7.0/Kazumi_ios_1.7.0_no_sign.ipa",
           "size": 39099543,
-          "buildVersion": "10000",
+          "buildVersion": "10700",
           "minOSVersion": "14.0"
         },
         {
@@ -262,7 +262,7 @@
           "localizedDescription": "- 改进的弹幕自动匹配算法 (@Deuscx)\r\n- 为无图片人物条目添加占位图 (@ErBWs)\r\n- 修复特定情况下播放页面标题错位的问题 (@Predidit)\r\n- 调整规则编辑器页面UI (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.9/Kazumi_ios_1.6.9_no_sign.ipa",
           "size": 39090210,
-          "buildVersion": "10000",
+          "buildVersion": "10609",
           "minOSVersion": "14.0"
         },
         {
@@ -271,7 +271,7 @@
           "localizedDescription": "- 改进的视频解析器 (@Predidit)\r\n- 现在支持HTTP混合内容站点的解析 (@Predidit)\r\n- 现在支持同源 iframe 嵌套内容站点的解析 (@Predidit)\r\n- 更新示例规则 (@Predidit)\r\n- 修复 Linux 编译错误 (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从3升级到4并向前兼容\r\n\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.8/Kazumi_ios_1.6.8_no_sign.ipa",
           "size": 39089297,
-          "buildVersion": "10000",
+          "buildVersion": "10608",
           "minOSVersion": "14.0"
         },
         {
@@ -280,7 +280,7 @@
           "localizedDescription": "- 新增搜索结果排序功能 (@Predidit)\r\n- 现在不再过滤冷门条目 (#800) (#875) (@Predidit)\r\n- 修复特定版本 macOS 闪退的问题 (#909) (@ErBWs)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.7/Kazumi_ios_1.6.7_no_sign.ipa",
           "size": 39088354,
-          "buildVersion": "10000",
+          "buildVersion": "10607",
           "minOSVersion": "14.0"
         },
         {
@@ -289,7 +289,7 @@
           "localizedDescription": "- 重新设计的检索页面 (@Predidit)\r\n- 现在可以通过详情页标签进行快捷检索 (#823) (@Predidit)\r\n- 优化弹幕绘制性能 (@Predidit)\r\n- 修复桌面平台上番剧详情页面无法使用鼠标拖动的问题 (#892) (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.6/Kazumi_ios_1.6.6_no_sign.ipa",
           "size": 39056342,
-          "buildVersion": "10000",
+          "buildVersion": "10606",
           "minOSVersion": "14.0"
         },
         {
@@ -298,7 +298,7 @@
           "localizedDescription": "- 新增番剧制作人员选项卡 (@Predidit)\r\n- 现在番剧详情页面使用懒加载  (@Predidit)\r\n- 修复番剧名称过长可能导致详情页布局混乱的问题 (#853) (@ErBWs)\r\n- 修复番剧详情页面横屏状态下，可能被异形屏遮挡的问题 (#853) (@ErBWs)\r\n- 现在签名 msix 格式安装包内嵌文件 (#874) (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.5/Kazumi_ios_1.6.5_no_sign.ipa",
           "size": 39030869,
-          "buildVersion": "10000",
+          "buildVersion": "10605",
           "minOSVersion": "14.0"
         }
       ]
