@@ -43,24 +43,26 @@ export const releaseToSourceVersion = async (
     return null
   }
 
-  // Find IPA file in assets
+  // 构建预期的IPA文件名
+  const versionNumber = release.tag_name.replace(/^v/, '') // 移除 'v' 前缀
+  const expectedName = `Kazumi_ios_${versionNumber}_no_sign.ipa`
+
+  // 查找匹配的IPA文件
   const ipaAsset = release.assets.find(
-    (asset) =>
-      asset.name.toLowerCase().endsWith('.ipa') ||
-      asset.content_type === 'application/octet-stream' ||
-      asset.name.toLowerCase().includes('kazumi')
+    (asset) => asset.name.toLowerCase() === expectedName.toLowerCase()
   )
 
   if (!ipaAsset) {
     console.warn(`[warn] ${release.tag_name} 没有找到 IPA 文件`)
+    console.warn(`[warn] 预期的文件名: ${expectedName}`)
     return null
   }
 
-  // Try to get actual file size from HEAD request
+  // 获取文件大小
   const fileSize = (await getFileSizeFromHEAD(ipaAsset.browser_download_url)) || ipaAsset.size
 
   return {
-    version: release.tag_name.replace(/^v/, ''), // Remove 'v' prefix if present
+    version: versionNumber,
     date: timestampToISO(release.published_at),
     localizedDescription: release.body || `Kazumi ${release.tag_name}`,
     downloadURL: ipaAsset.browser_download_url,

@@ -2,8 +2,7 @@ import { fetchReleases } from './api'
 import type { App, Source, SourceVersion } from './types'
 import { releaseToSourceVersion } from './utils'
 
-const isBetaVersion = (version: string) =>
-  version.includes('alpha') || version.includes('beta') || version.includes('beta')
+const isBetaVersion = (version: string) => version.includes('alpha') || version.includes('beta')
 
 const appTemplate = (baseName: string): Omit<App, 'versions'> => ({
   name: baseName,
