@@ -1,6 +1,5 @@
 import type { GitHubRelease, SourceVersion } from './types'
 
-const DEFAULT_BUILD_VERSION = '10000'
 const DEFAULT_MIN_OS_VERSION = '14.0'
 
 export const timestampToISO = (timestamp: string) => {
@@ -35,6 +34,35 @@ export const getFileSizeFromHEAD = async (url: string): Promise<number | null> =
   }
 }
 
+// 根据版本号计算构建版本号
+// 规则: 1.9.2 -> 10902, 1.9.3 -> 10903, 1.9.4 -> 10904
+const calculateBuildVersion = (version: string): string => {
+  // 移除可能的前缀，如 "v"
+  const cleanVersion = version.replace(/^v/, '')
+
+  // 分割版本号
+  const parts = cleanVersion.split('.')
+
+  if (parts.length < 3) {
+    console.warn(`[warn] 版本号格式不正确: ${version}`)
+    return '10000' // 默认值
+  }
+
+  try {
+    const major = parseInt(parts[0], 10)
+    const minor = parseInt(parts[1], 10)
+    const patch = parseInt(parts[2], 10)
+
+    // 按照规则计算构建版本号
+    const buildVersion = major * 10000 + minor * 100 + patch
+
+    return buildVersion.toString()
+  } catch (error) {
+    console.warn(`[warn] 解析版本号失败: ${version}`, error)
+    return '10000' // 默认值
+  }
+}
+
 export const releaseToSourceVersion = async (
   release: GitHubRelease
 ): Promise<SourceVersion | null> => {
@@ -61,13 +89,16 @@ export const releaseToSourceVersion = async (
   // 获取文件大小
   const fileSize = (await getFileSizeFromHEAD(ipaAsset.browser_download_url)) || ipaAsset.size
 
+  // 根据版本号计算构建版本号
+  const buildVersion = calculateBuildVersion(release.tag_name)
+
   return {
     version: versionNumber,
     date: timestampToISO(release.published_at),
     localizedDescription: release.body || `Kazumi ${release.tag_name}`,
     downloadURL: ipaAsset.browser_download_url,
     size: fileSize,
-    buildVersion: DEFAULT_BUILD_VERSION,
+    buildVersion: buildVersion, // 动态计算的构建版本号
     minOSVersion: DEFAULT_MIN_OS_VERSION,
   }
 }
