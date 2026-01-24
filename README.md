@@ -10,7 +10,7 @@
 将此源 URL 导入到支持 AltStore 源格式的应用中：
 
 ```
-https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/main/generated/apps.json
+https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/kazumi/generated/apps.json
 ```
 
 ## License
