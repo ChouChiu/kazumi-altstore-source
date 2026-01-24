@@ -13,6 +13,8 @@
 https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/kazumi/generated/apps.json
 ```
 
+[在线预览](https://therealfoxster.github.io/altsource-viewer/view/app/?source=https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/kazumi/generated/apps.json&id=com.example.kazumi)
+
 ## License
 
 [MIT](./LICENSE) License © [maxchang3](https://github.com/maxchang3)
