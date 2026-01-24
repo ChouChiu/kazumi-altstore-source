@@ -12,7 +12,7 @@ const appTemplate = (baseName: string): Omit<App, 'versions'> => ({
   localizedDescription:
     '使用 Flutter 开发的基于自定义规则的番剧采集与在线观看程序。使用最多五行基于 Xpath 语法的选择器构建自己的规则。支持规则导入与规则分享。支持基于 Anime4K 的实时超分辨率。绝赞开发中 (～￣▽￣)～',
   iconURL: 'https://github.com/Predidit/Kazumi/blob/main/assets/images/logo/logo_ios.png?raw=true',
-  tintColor: '#6c5ce7',
+  tintColor: '#57cd67',
   category: 'entertainment',
   screenshots: {
     iphone: [
@@ -69,9 +69,10 @@ export const generateSource = async (): Promise<Source> => {
 
   const source: Source = {
     name: 'Kazumi',
-    iconURL: 'https://raw.githubusercontent.com/Predidit/Kazumi/main/.github/icon.png',
-    website: 'https://github.com/Predidit/Kazumi',
-    tintColor: '#6c5ce7',
+    iconURL:
+      'https://github.com/Predidit/Kazumi/blob/main/assets/images/logo/logo_ios.png?raw=true',
+    website: 'https://kazumi.app',
+    tintColor: '#57cd67',
     featuredApps: [stableApp.bundleIdentifier],
     apps: [stableApp, betaApp],
     news: [],
