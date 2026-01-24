@@ -1,13 +1,36 @@
-import type { Updates } from './types'
+import type { GitHubRelease, ReleasesResponse } from './types'
 
-export const fetchUpdates = async () => {
-  const url =
-    'https://danmaku-cn.myani.org/v1/updates/incremental/details?clientVersion=4.0.0&clientPlatform=ios&clientArch=aarch64&releaseClass=alpha'
+export const fetchReleases = async (): Promise<ReleasesResponse> => {
+  const url = 'https://api.github.com/repos/Predidit/Kazumi/releases'
 
-  const response = await fetch(url)
+  const response = await fetch(url, {
+    headers: {
+      Accept: 'application/vnd.github.v3+json',
+      'User-Agent': 'Kazumi-AltStore-Source',
+    },
+  })
+
   if (!response.ok) {
-    throw new Error(`Failed to fetch updates: ${response.status} ${response.statusText}`)
+    throw new Error(`Failed to fetch releases: ${response.status} ${response.statusText}`)
   }
 
-  return response.json() as Promise<Updates>
+  const releases = (await response.json()) as GitHubRelease[]
+  return { releases }
+}
+
+export const fetchLatestRelease = async (): Promise<GitHubRelease> => {
+  const url = 'https://api.github.com/repos/Predidit/Kazumi/releases/latest'
+
+  const response = await fetch(url, {
+    headers: {
+      Accept: 'application/vnd.github.v3+json',
+      'User-Agent': 'Kazumi-AltStore-Source',
+    },
+  })
+
+  if (!response.ok) {
+    throw new Error(`Failed to fetch latest release: ${response.status} ${response.statusText}`)
+  }
+
+  return response.json() as Promise<GitHubRelease>
 }

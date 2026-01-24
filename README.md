@@ -1,27 +1,13 @@
-# Animeko AltStore Source
+# Kazumi AltStore Source
 
-[![License][license-src]][license-href]
-
-This is a custom [AltStore](https://altstore.io/) source for [Animeko](https://myani.org), an all-in-one online danmaku anime platform.
-
-It can be used with AltStore, [SideStore](https://sidestore.io/), [LiveContainer](https://github.com/LiveContainer/LiveContainer) and other apps that support AltStore source format.
-
-Import this source URL into your AltStore-compatible app:
-
-```
-https://raw.githubusercontent.com/maxchang3/ani-altstore-source/main/generated/apps.json
-```
-
----
-
-此项目为 [Animeko](https://myani.org) 的 AltStore 源，Animeko 是一个一站式的在线弹幕追番平台。
+此项目为 [Kazumi](https://github.com/Predidit/Kazumi) 的 AltStore 源，Kazumi 是一个基于 Tachiyomi 的第三方漫画阅读器。
 
 可以用于 AltStore、[SideStore](https://sidestore.io/)、[LiveContainer](https://github.com/LiveContainer/LiveContainer) 等支持 AltStore 源格式的应用。
 
 将此源 URL 导入到支持 AltStore 源格式的应用中：
 
 ```
-https://raw.githubusercontent.com/maxchang3/ani-altstore-source/main/generated/apps.json
+https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/main/generated/apps.json
 ```
 
 ## License
@@ -30,6 +16,5 @@ https://raw.githubusercontent.com/maxchang3/ani-altstore-source/main/generated/a
 
 <!-- Badges -->
 
-[license-src]: https://img.shields.io/github/license/maxchang3/ani-altstore-source.svg?style=flat&colorA=080f12&colorB=1fa669
-[license-href]: https://github.com/maxchang3/ani-altstore-source/blob/main/LICENSE
-
+[license-src]: https://img.shields.io/github/license/WingChunWong/Kazumi-AltStore-Source.svg?style=flat&colorA=080f12&colorB=1fa669
+[license-href]: https://github.com/WingChunWong/Kazumi-AltStore-Source/blob/main/LICENSE

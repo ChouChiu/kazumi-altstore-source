@@ -1,13 +1,18 @@
 {
-  "name": "ani-altstore-source",
-  "version": "0.0.0",
-  "description": "_description_",
-  "keywords": [],
-  "homepage": "https://github.com/maxchang3/ani-altstore-source#readme",
-  "bugs": "https://github.com/maxchang3/ani-altstore-source/issues",
+  "name": "kazumi-altstore-source",
+  "version": "0.1.0",
+  "description": "AltStore source for Kazumi",
+  "keywords": [
+    "altstore",
+    "kazumi",
+    "manga",
+    "tachiyomi"
+  ],
+  "homepage": "https://github.com/WingChunWong/Kazumi-AltStore-Source#readme",
+  "bugs": "https://github.com/WingChunWong/Kazumi-AltStore-Source/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maxchang3/ani-altstore-source.git"
+    "url": "git+https://github.com/WingChunWong/Kazumi-AltStore-Source.git"
   },
   "license": "MIT",
   "author": "maxchang3",
