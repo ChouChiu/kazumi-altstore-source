@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "1.9.5",
+          "date": "2026-01-28T05:24:26.000Z",
+          "localizedDescription": "- Android14及以上版本现在使用vulkan进行视频渲染与超分辨率计算 (@Predidit)\r\n- 修复部分安卓设备播放视频时的冻结问题 (#1276 #1615) (@Predidit)\r\n- 新增评论排序功能 (#1633) (@UzawaReisaQwQ)\r\n- 新增评分隐藏功能 (@xiaobai19198)\r\n- 修复部分Linux设备上的资源泄漏问题 (@Predidit)\r\n- 修复iOS平台无法使用Altstore签名的问题 (#819) (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.5/Kazumi_ios_1.9.5_no_sign.ipa",
+          "size": 27796964,
+          "buildVersion": "10905",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.9.4",
           "date": "2026-01-09T08:41:54.000Z",
           "localizedDescription": "- 新增自定义HTTP代理支持 (#1205 #1221) (@0Chencc)\r\n- 修复日志页面日志过多可能导致应用冻结的问题 (#1607) (@Predidit)\r\n- 修复windows平台无法在包含非ASCII路径下运行的问题 (@Predidit)\r\n- 修复linux平台视频解析器偶发的崩溃问题 (@Predidit)\r\n- 其他UI调整 (@0Chencc)",
@@ -290,15 +299,6 @@
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.6/Kazumi_ios_1.6.6_no_sign.ipa",
           "size": 39056342,
           "buildVersion": "10606",
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.6.5",
-          "date": "2025-04-07T10:03:19.000Z",
-          "localizedDescription": "- 新增番剧制作人员选项卡 (@Predidit)\r\n- 现在番剧详情页面使用懒加载  (@Predidit)\r\n- 修复番剧名称过长可能导致详情页布局混乱的问题 (#853) (@ErBWs)\r\n- 修复番剧详情页面横屏状态下，可能被异形屏遮挡的问题 (#853) (@ErBWs)\r\n- 现在签名 msix 格式安装包内嵌文件 (#874) (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.5/Kazumi_ios_1.6.5_no_sign.ipa",
-          "size": 39030869,
-          "buildVersion": "10605",
           "minOSVersion": "14.0"
         }
       ]
