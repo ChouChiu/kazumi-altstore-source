@@ -1,7 +1,7 @@
 import type { GitHubRelease, ReleasesResponse } from './types'
 
 export const fetchReleases = async (): Promise<ReleasesResponse> => {
-  const url = 'https://api.github.com/repos/Predidit/Kazumi/releases'
+  const url = 'https://api.github.com/repos/Predidit/Kazumi/releases?per_page=100'
 
   const response = await fetch(url, {
     headers: {

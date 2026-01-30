@@ -38,8 +38,7 @@ export const generateSource = async (): Promise<Source> => {
   )
 
   if (allVersionResults.length !== allVersions.length) {
-    const filteredCount = allVersionResults.length - allVersions.length
-    console.warn(`[warn] 过滤掉了 ${filteredCount} 个无效的版本`)
+    console.warn('过滤掉了不支持 iOS 的版本')
   }
 
   const app: App = {

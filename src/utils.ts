@@ -1,6 +1,6 @@
 import type { GitHubRelease, SourceVersion } from './types'
 
-const DEFAULT_MIN_OS_VERSION = '14.0'
+const DEFAULT_MIN_OS_VERSION = '13.0'
 
 export const timestampToISO = (timestamp: string) => {
   return new Date(timestamp).toISOString()
@@ -37,11 +37,8 @@ export const getFileSizeFromHEAD = async (url: string): Promise<number | null> =
 // 根据版本号计算构建版本号
 // 规则: 1.9.2 -> 10902, 1.9.3 -> 10903, 1.9.4 -> 10904
 const calculateBuildVersion = (version: string): string => {
-  // 移除可能的前缀，如 "v"
-  const cleanVersion = version.replace(/^v/, '')
-
   // 分割版本号
-  const parts = cleanVersion.split('.')
+  const parts = version.split('.')
 
   if (parts.length < 3) {
     console.warn(`[warn] 版本号格式不正确: ${version}`)
@@ -63,6 +60,21 @@ const calculateBuildVersion = (version: string): string => {
   }
 }
 
+// 检查版本号是否 >= 1.2.0
+const isVersionSupported = (version: string): boolean => {
+  const parts = version.split('.').map((part) => parseInt(part, 10))
+
+  // 确保版本号至少有三位
+  while (parts.length < 3) {
+    parts.push(0)
+  }
+
+  // 检查是否 >= 1.2.0
+  if (parts[0] > 1) return true
+  if (parts[0] === 1 && parts[1] >= 2) return true
+  return false
+}
+
 export const releaseToSourceVersion = async (
   release: GitHubRelease
 ): Promise<SourceVersion | null> => {
@@ -71,8 +83,14 @@ export const releaseToSourceVersion = async (
     return null
   }
 
+  // 检查版本是否支持（从1.2.0开始）
+  if (!isVersionSupported(release.tag_name)) {
+    // 不再输出单个版本的警告，只在生成器中汇总
+    return null
+  }
+
   // 构建预期的IPA文件名
-  const versionNumber = release.tag_name.replace(/^v/, '') // 移除 'v' 前缀
+  const versionNumber = release.tag_name // 所有tag都没有v前缀
   const expectedName = `Kazumi_ios_${versionNumber}_no_sign.ipa`
 
   // 查找匹配的IPA文件
