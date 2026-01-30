@@ -2,7 +2,8 @@ import { fetchReleases } from './api'
 import type { App, Source, SourceVersion } from './types'
 import { releaseToSourceVersion } from './utils'
 
-const appTemplate = (): Omit<App, 'versions'> => ({
+// 应用模板，除 versions 外其他字段固定
+const APP_TEMPLATE: Omit<App, 'versions'> = {
   name: 'Kazumi',
   bundleIdentifier: 'com.example.kazumi',
   developerName: 'Predidit',
@@ -12,50 +13,37 @@ const appTemplate = (): Omit<App, 'versions'> => ({
   tintColor: '#57cd67',
   category: 'entertainment',
   screenshots: {
-    iphone: [
-      'https://github.com/Predidit/Kazumi/blob/main/static/screenshot/img_1.png?raw=true',
-      'https://github.com/Predidit/Kazumi/blob/main/static/screenshot/img_2.png?raw=true',
-      'https://github.com/Predidit/Kazumi/blob/main/static/screenshot/img_3.png?raw=true',
-      'https://github.com/Predidit/Kazumi/blob/main/static/screenshot/img_4.png?raw=true',
-      'https://github.com/Predidit/Kazumi/blob/main/static/screenshot/img_5.png?raw=true',
-      'https://github.com/Predidit/Kazumi/blob/main/static/screenshot/img_6.png?raw=true',
-    ],
-    ipad: [],
+    iphone: Array.from(
+      { length: 6 },
+      (_, i) =>
+        `https://github.com/Predidit/Kazumi/blob/main/static/screenshot/img_${i + 1}.png?raw=true`
+    ),
+    ipad: [], // 暂无 iPad 截图
   },
-  appPermissions: {
-    entitlements: [],
-    privacy: {},
-  },
-})
+  appPermissions: { entitlements: [], privacy: {} },
+}
 
+// 生成 AltStore 源数据
 export const generateSource = async (): Promise<Source> => {
   const { releases } = await fetchReleases()
-
-  const allVersionResults = await Promise.all(releases.map(releaseToSourceVersion))
-
-  const allVersions = allVersionResults.filter(
-    (version): version is SourceVersion => version !== null
+  const versions = (await Promise.all(releases.map(releaseToSourceVersion))).filter(
+    (v): v is SourceVersion => v !== null
   )
 
-  if (allVersionResults.length !== allVersions.length) {
-    console.warn('过滤掉了不支持 iOS 的版本')
+  // 提示过滤了多少个版本
+  if (versions.length < releases.length) {
+    console.warn(`过滤了 ${releases.length - versions.length} 个不支持 iOS 的版本`)
   }
 
-  const app: App = {
-    ...appTemplate(),
-    versions: allVersions,
-  }
+  const app: App = { ...APP_TEMPLATE, versions }
 
-  const source: Source = {
+  return {
     name: 'Kazumi',
-    iconURL:
-      'https://github.com/Predidit/Kazumi/blob/main/assets/images/logo/logo_ios.png?raw=true',
+    iconURL: APP_TEMPLATE.iconURL,
     website: 'https://kazumi.app',
-    tintColor: '#57cd67',
-    featuredApps: [app.bundleIdentifier],
+    tintColor: APP_TEMPLATE.tintColor,
+    featuredApps: [app.bundleIdentifier], // 将本应用设为特色应用
     apps: [app],
     news: [],
   }
-
-  return source
 }
