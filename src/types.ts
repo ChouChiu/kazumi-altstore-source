@@ -1,5 +1,4 @@
 export interface GitHubRelease {
-  id: number
   tag_name: string
   name: string
   body: string
@@ -10,11 +9,9 @@ export interface GitHubRelease {
 }
 
 export interface GitHubAsset {
-  id: number
   name: string
-  size: number
   browser_download_url: string
-  content_type: string
+  size: number
 }
 
 export interface ReleasesResponse {
@@ -23,35 +20,28 @@ export interface ReleasesResponse {
 
 export interface Source {
   name: string
-  subtitle?: string
-  description?: string
   iconURL?: string
-  headerURL?: string
   website?: string
-  patreonURL?: string
   tintColor?: string
-  featuredApps?: string[]
+  featuredApps?: string[] // 特色应用的 bundleIdentifier 列表
   apps: App[]
-  news: News[]
+  news: never[] // 暂不支持新闻
 }
 
 export interface SourceVersion {
   version: string
-  buildVersion: string
+  buildVersion: string // 由版本号计算得出，如 1.9.2 -> 10902
   date: string
   size: number
   downloadURL: string
   localizedDescription: string
-  minOSVersion?: string
-  maxOSVersion?: string
+  minOSVersion?: string // 最低支持的系统版本
 }
 
 export interface App {
   name: string
   bundleIdentifier: string
-  marketplaceID?: string
   developerName: string
-  subtitle?: string
   localizedDescription: string
   iconURL: string
   tintColor: string
@@ -64,45 +54,17 @@ export interface App {
     | 'photo-video'
     | 'social'
     | 'utilities'
-  screenshots: Array<imageWithSize | string> | ScreenshotsClass
+  screenshots: Screenshots
   versions: SourceVersion[]
-  appPermissions: {
-    entitlements: string[]
-    privacy: Record<string, string>
-  }
-  patreon?: {
-    pledge: number
-    currency: string
-    benefit: string
-    tiers: string[]
-  }
+  appPermissions: AppPermissions
 }
 
-interface imageWithSize {
-  imageURL: string
-  width?: number
-  height?: number
+interface Screenshots {
+  iphone: string[] // iPhone 截图 URL
+  ipad: never[] // 暂无 iPad 截图
 }
 
-interface ScreenshotsClass {
-  iphone: (imageWithSize | string)[]
-  /**
-   * All iPad screenshots must provide an explicit `width` and `height`
-   *
-   * https://faq.altstore.io/developers/make-a-source#width-number
-   * https://faq.altstore.io/developers/make-a-source#height-number
-   */
-  ipad: Required<imageWithSize>[]
-}
-
-interface News {
-  title: string
-  identifier: string
-  caption: string
-  date: string
-  tintColor: string
-  imageURL: string
-  notify: boolean
-  url?: string
-  appID?: string
+interface AppPermissions {
+  entitlements: never[] // 暂不需要任何 entitlements
+  privacy: Record<string, never> // 暂不需要隐私权限说明
 }
