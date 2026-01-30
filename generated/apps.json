@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "1.9.6",
+          "date": "2026-01-30T02:15:06.000Z",
+          "localizedDescription": "- 修复支持 vulkan 1.4 的安卓设备视频播放崩溃的问题 (#1652) (@Predidit)\r\n- 修复自定义一起看服务器不支持 IPv6 的问题 (#1643) (@keyboard2005)\r\n> [!NOTE]\r\n> 这是 1.9.5 的热修复版本，更多更新日志参考 1.9.5",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.9.6/Kazumi_ios_1.9.6_no_sign.ipa",
+          "size": 27805229,
+          "buildVersion": "10906",
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "1.9.5",
           "date": "2026-01-28T05:24:26.000Z",
           "localizedDescription": "- Android14及以上版本现在使用vulkan进行视频渲染与超分辨率计算 (@Predidit)\r\n- 修复部分安卓设备播放视频时的冻结问题 (#1276 #1615) (@Predidit)\r\n- 新增评论排序功能 (#1633) (@UzawaReisaQwQ)\r\n- 新增评分隐藏功能 (@xiaobai19198)\r\n- 修复部分Linux设备上的资源泄漏问题 (@Predidit)\r\n- 修复iOS平台无法使用Altstore签名的问题 (#819) (@Predidit)",
@@ -290,15 +299,6 @@
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.7/Kazumi_ios_1.6.7_no_sign.ipa",
           "size": 39088354,
           "buildVersion": "10607",
-          "minOSVersion": "14.0"
-        },
-        {
-          "version": "1.6.6",
-          "date": "2025-04-13T00:29:38.000Z",
-          "localizedDescription": "- 重新设计的检索页面 (@Predidit)\r\n- 现在可以通过详情页标签进行快捷检索 (#823) (@Predidit)\r\n- 优化弹幕绘制性能 (@Predidit)\r\n- 修复桌面平台上番剧详情页面无法使用鼠标拖动的问题 (#892) (@Predidit)\r\n> [!NOTE]\r\n> 性能受限设备应避免同时开启弹幕与超分辨率",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.6.6/Kazumi_ios_1.6.6_no_sign.ipa",
-          "size": 39056342,
-          "buildVersion": "10606",
           "minOSVersion": "14.0"
         }
       ]
