@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.0.0",
+          "buildVersion": "20000",
+          "date": "2026-02-06T05:33:28.000Z",
+          "localizedDescription": "- 新增离线缓存功能 (#26 #316) (@0Chencc) (@aliferne)\r\n- 新增一起看模式下弹幕聊天功能 (#834) (@UzawaReisaQwQ)\r\n- 新增定时关闭功能 (#832 #1586) (@funnytime75)\r\n- 修复 Andorid8/9 应用白屏的问题 (#1676) (@Predidit)\r\n- 修复自动更新功能特定情况下无法打开文件夹的问题 (#1655) (@UzawaReisaQwQ)\r\n- 修复 Android 键鼠操作时不正确的绿色应用边框 (@axel10)\r\n- 修复 Linux 平台视频解析器的线程安全问题 (@Predidit)\r\n- 适配 iOS 改进生命周期 (@0Chencc)\r\n- 其他UI改进 (@UzawaReisaQwQ)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.0/Kazumi_ios_2.0.0_no_sign.ipa",
+          "size": 27665049,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "1.9.6",
           "buildVersion": "10906",
           "date": "2026-01-30T02:15:06.000Z",
