@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.0.1",
+          "buildVersion": "20001",
+          "date": "2026-02-08T02:27:13.000Z",
+          "localizedDescription": "- 新增 Android 后台缓存功能 (@0Chencc)\r\n- 新增 Android 自定义视频渲染器 (#1670 #1671 #1723) (@Predidit)\r\n- 新增应用启动页选择功能 (#1171) (@aliferne)\r\n- 修复频繁切换视频分集可能抛出错误的问题 (@Predidit)\r\n- 修复单 nvidia 显卡 Linux 设备播放器初始化导致崩溃的问题 (#1722) (@Predidit)\r\n- 改进的播放器错误提示 (@Predidit)\r\n- 其他UI改进 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.1/Kazumi_ios_2.0.1_no_sign.ipa",
+          "size": 27749741,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.0.0",
           "buildVersion": "20000",
           "date": "2026-02-06T05:33:28.000Z",
