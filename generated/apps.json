@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.0.2",
+          "buildVersion": "20002",
+          "date": "2026-02-12T06:52:51.000Z",
+          "localizedDescription": "Kazumi 2.0.2",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.2/Kazumi_ios_2.0.2_no_sign.ipa",
+          "size": 27705875,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.0.1",
           "buildVersion": "20001",
           "date": "2026-02-08T02:27:13.000Z",
