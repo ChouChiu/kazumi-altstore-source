@@ -35,7 +35,7 @@
           "version": "2.0.2",
           "buildVersion": "20002",
           "date": "2026-02-12T06:52:51.000Z",
-          "localizedDescription": "Kazumi 2.0.2",
+          "localizedDescription": "- 适配 flutter 3.41 (@Predidit)\r\n- 修复缓存视频评论区不匹配的问题 (#1727) (@0Chencc)\r\n- 修复 windows 平台批量缓存时可能崩溃的问题 (@0Chencc)\r\n- 修复 windows 平台播放视频时桌面图标无法点击的问题 (#1732) (@Predidit)\r\n- 修复 android10 及以下视频解析器总是超时的问题 (#1726) (@0Chencc)\r\n- 修复 iPadOS26 及以上版本视频控制面板无法打开的问题 (#1457) (@Predidit)\r\n- 修复 android 平台在软件解码模式下使用 mediacodec_embed 视频输出可能黑屏的问题 (#1746) (@Predidit)\r\n- 修复特定情况下更新弹窗可能被覆盖的问题 (#1734) (@Predidit)\r\n- 修复 android 设备使用鼠标时应用始终显示绿色边框的问题 (#1708) (@axel10)\r\n- 现在可以自定义代理设置测试地址 (@0Chencc)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.2/Kazumi_ios_2.0.2_no_sign.ipa",
           "size": 27705875,
           "minOSVersion": "13.0"
