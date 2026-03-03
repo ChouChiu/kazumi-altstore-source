@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.0.4",
+          "buildVersion": "20004",
+          "date": "2026-03-03T02:21:45.000Z",
+          "localizedDescription": "- 修复离线缓存视频播放位置记忆错误的问题 (@Predidit) (#1833)\r\n- 修复 android 平台 vulkan1.1 设备播放视频一段时间后崩溃的问题 (@Predidit) (#1756)\r\n- 修复 android 平台 vulkan1.1 设备超分辨率不生效的问题 (@Predidit)\r\n- 修复 windows 平台自旋锁处理不当导致的性能问题 (@Predidit) (#1779)\r\n- 修复 macos 平台启动时窗体闪烁的问题 (@Zhoucheng133)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.4/Kazumi_ios_2.0.4_no_sign.ipa",
+          "size": 27717501,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.0.3",
           "buildVersion": "20003",
           "date": "2026-02-20T03:34:47.000Z",
