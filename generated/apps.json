@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.0.5",
+          "buildVersion": "20005",
+          "date": "2026-03-07T10:24:47.000Z",
+          "localizedDescription": "- 新增网页验证接管功能 (#1823) (@Predidit)\r\n> [!IMPORTANT]\r\n> 规则API级别从5升级到6，向前兼容",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.5/Kazumi_ios_2.0.5_no_sign.ipa",
+          "size": 27758976,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.0.4",
           "buildVersion": "20004",
           "date": "2026-03-03T02:21:45.000Z",
