@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.0.6",
+          "buildVersion": "20006",
+          "date": "2026-03-26T11:39:32.000Z",
+          "localizedDescription": "- 新增系统媒体会话支持 (#1136 #1690) (@stephen-zeng)\r\n- 更好的无障碍支持 (#1877) (@0Chencc)\r\n- 修复特定情况下下载任务并发限制失效的问题 (#1904) (@Predidit)\r\n- 修复特定情况下错误提示不会自动消失的问题 (@Predidit)\r\n- 视频解析器代码清理 (@ErBWs)\r\n- 其他UI调整 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.6/Kazumi_ios_2.0.6_no_sign.ipa",
+          "size": 27869237,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.0.5",
           "buildVersion": "20005",
           "date": "2026-03-07T10:24:47.000Z",
