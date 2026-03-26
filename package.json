@@ -16,30 +16,16 @@
   },
   "license": "MIT",
   "author": "maxchang3",
-  "sideEffects": false,
   "type": "module",
-  "exports": {
-    ".": "./dist/index.mjs",
-    "./package.json": "./package.json"
-  },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.mts",
-  "files": [
-    "dist"
-  ],
   "scripts": {
-    "build": "tsdown",
-    "dev": "tsdown --watch --sourcemap",
-    "generate": "tsx src/index.ts",
+    "generate": "bun run src/index.ts",
     "lint": "biome check",
     "lint:fix": "biome check --write .",
     "prepare": "simple-git-hooks",
-    "start": "tsx src/index.ts",
     "typecheck": "tsc --noEmit"
   },
   "simple-git-hooks": {
-    "pre-commit": "pnpm i --frozen-lockfile --ignore-scripts --offline && pnpx lint-staged"
+    "pre-commit": "bun install --frozen-lockfile --ignore-scripts && bunx lint-staged"
   },
   "lint-staged": {
     "*": [
@@ -49,12 +35,11 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.9",
     "@maxchang/biome-config": "^0.1.8",
+    "@types/bun": "latest",
     "@types/node": "^25.5.0",
     "lint-staged": "^16.4.0",
     "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.21.5",
-    "tsx": "^4.21.0",
     "typescript": "^6.0.2"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "bun@1.3.8"
 }

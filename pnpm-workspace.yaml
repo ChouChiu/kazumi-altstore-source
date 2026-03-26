@@ -1,9 +1,0 @@
-packages:
-  - playground
-  - docs
-  - packages/*
-  - examples/*
-onlyBuiltDependencies:
-  - '@biomejs/biome'
-  - esbuild
-  - simple-git-hooks
