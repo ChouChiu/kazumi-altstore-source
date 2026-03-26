@@ -15,6 +15,7 @@ updates:
         update-types:
           - "minor"
           - "patch"
+    auto-merge: true
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -27,3 +28,4 @@ updates:
       github-actions:
         patterns:
           - "*"
+    auto-merge: true
