@@ -47,14 +47,14 @@
     ]
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.11",
-    "@maxchang/biome-config": "^0.1.7",
-    "@types/node": "^22.19.5",
-    "lint-staged": "^16.2.7",
+    "@biomejs/biome": "2.4.9",
+    "@maxchang/biome-config": "^0.1.8",
+    "@types/node": "^25.5.0",
+    "lint-staged": "^16.4.0",
     "simple-git-hooks": "^2.13.1",
-    "tsdown": "^0.19.0",
+    "tsdown": "^0.21.5",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.2"
   },
   "packageManager": "pnpm@10.28.1"
 }
