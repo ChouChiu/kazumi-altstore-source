@@ -36,7 +36,7 @@
     "@biomejs/biome": "2.4.11",
     "@maxchang/biome-config": "^0.1.8",
     "@types/bun": "latest",
-    "@types/node": "^25.5.2",
+    "@types/node": "^25.6.0",
     "lint-staged": "^16.4.0",
     "simple-git-hooks": "^2.13.1",
     "typescript": "^6.0.2"
