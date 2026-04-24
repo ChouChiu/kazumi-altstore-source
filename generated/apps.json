@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.0.8",
+          "buildVersion": "20008",
+          "date": "2026-04-24T11:49:25.000Z",
+          "localizedDescription": "- 重新设计的番剧时间表页面 (@Predidit)\r\n- 新增图片预览功能 (@LiggMax)\r\n- 修复 windows 平台特定情况下出现幽灵窗体的问题 (#1883) (@0Chencc)\r\n- 修复搜索页面排序参数丢失的问题 (#1995) (@Predidit)\r\n- 修复新番评论区为空时报告网络错误的问题 (@Predidit)\r\n- 修复 windows 平台系统标题栏颜色跟随主题的问题 (@ChouChiu)\r\n- 现在可以在时间表页面筛选已追番剧 (@keyboard2005)\r\n- 提高 Linux 平台视频解析器稳定性 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.8/Kazumi_ios_2.0.8_no_sign.ipa",
+          "size": 27886967,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.0.7",
           "buildVersion": "20007",
           "date": "2026-04-09T11:32:44.000Z",
