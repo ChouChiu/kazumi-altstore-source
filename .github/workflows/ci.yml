@@ -2,6 +2,7 @@ name: CI
 
 on:
   push:
+    branches: [kazumi]
   pull_request:
 
 
