@@ -10,10 +10,10 @@
 将此源 URL 导入到支持 AltStore 源格式的应用中：
 
 ```
-https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/kazumi/generated/apps.json
+https://raw.githubusercontent.com/ChouChiu/Kazumi-AltStore-Source/kazumi/generated/apps.json
 ```
 
-[在线预览](https://therealfoxster.github.io/altsource-viewer/view/app/?source=https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/kazumi/generated/apps.json&id=com.example.kazumi)
+[在线预览](https://therealfoxster.github.io/altsource-viewer/view/app/?source=https://raw.githubusercontent.com/ChouChiu/Kazumi-AltStore-Source/kazumi/generated/apps.json&id=com.example.kazumi)
 
 ---
 
@@ -24,10 +24,10 @@ It can be used with AltStore, [SideStore](https://sidestore.io/), [LiveContainer
 Import this source URL into your AltStore-compatible app:
 
 ```
-https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/kazumi/generated/apps.json
+https://raw.githubusercontent.com/ChouChiu/Kazumi-AltStore-Source/kazumi/generated/apps.json
 ```
 
-[Online Preview](https://therealfoxster.github.io/altsource-viewer/view/app/?source=https://raw.githubusercontent.com/WingChunWong/Kazumi-AltStore-Source/kazumi/generated/apps.json&id=com.example.kazumi)
+[Online Preview](https://therealfoxster.github.io/altsource-viewer/view/app/?source=https://raw.githubusercontent.com/ChouChiu/Kazumi-AltStore-Source/kazumi/generated/apps.json&id=com.example.kazumi)
 
 ---
 
@@ -40,7 +40,7 @@ _Modified from [ani-altstore-source](https://github.com/maxchang3/ani-altstore-s
 <!-- Badges -->
 
 [license-src]: https://img.shields.io/badge/license-MIT-31c553
-[license-href]: https://github.com/WingChunWong/Kazumi-AltStore-Source/blob/kazumi/LICENSE
+[license-href]: https://github.com/ChouChiu/Kazumi-AltStore-Source/blob/kazumi/LICENSE
 
-[workflow-src]: https://github.com/WingChunWong/kazumi-altstore-source/actions/workflows/update-generated.yml/badge.svg
-[workflow-href]: https://github.com/WingChunWong/kazumi-altstore-source/actions/workflows/update-generated.yml
+[workflow-src]: https://github.com/ChouChiu/kazumi-altstore-source/actions/workflows/update-generated.yml/badge.svg
+[workflow-href]: https://github.com/ChouChiu/kazumi-altstore-source/actions/workflows/update-generated.yml
