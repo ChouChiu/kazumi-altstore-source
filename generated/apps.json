@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.0.9",
+          "buildVersion": "20009",
+          "date": "2026-05-02T07:37:38.000Z",
+          "localizedDescription": "- 新增以图搜番功能 (@LiggMax)\r\n- 新增 Bangumi 收藏同步功能 (@bgzo @melancholyFishAndWater)\r\n- 现在可以在存在检索结果时进行别名检索 (@x1renn)\r\n- 优化画中画功能视频比例 (@x1renn)\r\n- 优化 windows 平台视频播放器性能 (@Predidit)\r\n- 其他 UI 调整",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.0.9/Kazumi_ios_2.0.9_no_sign.ipa",
+          "size": 27997089,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.0.8",
           "buildVersion": "20008",
           "date": "2026-04-24T11:49:25.000Z",
