@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.1.0",
+          "buildVersion": "20100",
+          "date": "2026-05-03T14:30:43.000Z",
+          "localizedDescription": "- 修复 Bangumi 同步可能导致评分数据清空的问题 (#2034) (@bgzo)\r\n- 修复特定情况下分集评论内容重复的问题 (#2038) (@Predidit)\r\n- 修复 macOS 平台以图搜番功能无法导入图片的问题 (#2032) (@LiggMax)\r\n- 现在可以禁用播放器音量与亮度调节手势 (@B-2U)\r\n- 其他 UI 调整 (@Predidit)\r\n> [!NOTE]\r\n> 这是 2.0.9 的热修复版本，更多更新日志参考 2.0.9",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.0/Kazumi_ios_2.1.0_no_sign.ipa",
+          "size": 27997661,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.0.9",
           "buildVersion": "20009",
           "date": "2026-05-02T07:37:38.000Z",
