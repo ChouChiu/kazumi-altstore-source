@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.1.1",
+          "buildVersion": "20101",
+          "date": "2026-05-08T07:41:12.000Z",
+          "localizedDescription": "- 重新设计的历史记录同步功能 (#1999) (@Predidit)\r\n- 优化弹幕性能 (#1146) (#1518) (@Predidit)\r\n- 修复番剧详情页面过渡动画卡顿的问题 (@Predidit)\r\n- 修复番剧海报点击时闪烁的问题 (@Predidit)\r\n- 修复 Android 平台应用后台可能导致播放器画面丢失的问题 (#1921) (@Predidit)\r\n- 用户友好的错误提示 (@Predidit) \r\n- 现在 Android 平台使用 Impeller 渲染引擎 (#821) (@Predidit)\r\n- 其他错误修复 (@LiggMax)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.1/Kazumi_ios_2.1.1_no_sign.ipa",
+          "size": 28029329,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.1.0",
           "buildVersion": "20100",
           "date": "2026-05-03T14:30:43.000Z",
