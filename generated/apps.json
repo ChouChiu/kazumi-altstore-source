@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.1.2",
+          "buildVersion": "20102",
+          "date": "2026-05-21T00:57:11.000Z",
+          "localizedDescription": "- 新增规则自定义 JS 验证支持 (@Predidit)\r\n- 新增弹幕时间轴偏移设置，优化弹幕发射逻辑 (#369) (@Predidit)\r\n- 优化系统音量监听与播放器音量反馈 (@ErBWs)\r\n- 优化播放器与视频页面生命周期管理 (@Predidit)\r\n- 修复 macOS 非活跃窗口点击穿透的问题 (@abcghy)\r\n- 修复 macOS 最小化至托盘后应用退出的问题 (@0Chencc)\r\n- 修复 Linux 启动时窗口闪烁的问题 (@Predidit)\r\n- 修复 Android 全屏控制兼容性问题 (@Predidit)\r\n- 修复 Bangumi 特殊标签解析导致搜索结果异常的问题 (@Predidit)\r\n- 修复离线播放器初始化时机问题 (#2070) (@Predidit)\r\n- 适配 flutter 3.44 (@Predidit)\r\n- 其他错误修复与 UI 调整 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.2/Kazumi_ios_2.1.2_no_sign.ipa",
+          "size": 28000908,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.1.1",
           "buildVersion": "20101",
           "date": "2026-05-08T07:41:12.000Z",
