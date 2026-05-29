@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.1.3",
+          "buildVersion": "20103",
+          "date": "2026-05-29T03:00:35.000Z",
+          "localizedDescription": "- 新增Bangumi镜像支持\r\n> [!NOTE]\r\n> Bangumi镜像为实验性功能，在网络连通性良好时保持禁用",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.3/Kazumi_ios_2.1.3_no_sign.ipa",
+          "size": 28024764,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.1.2",
           "buildVersion": "20102",
           "date": "2026-05-21T00:57:11.000Z",
