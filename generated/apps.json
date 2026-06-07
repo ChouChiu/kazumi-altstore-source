@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.1.4",
+          "buildVersion": "20104",
+          "date": "2026-06-07T02:32:12.000Z",
+          "localizedDescription": "- 新增默认设置重置功能 (#2176) (@Predidit)\r\n- 调整播放器HUD布局 (#2164) (@Predidit)\r\n- 修复 iOS/windows 平台截图可能导致崩溃的问题 (#2146) (@UzawaReisaQwQ @Predidit)\r\n- 修复吐槽编辑页面的布局错误 (#2142) (@UzawaReisaQwQ)\r\n- 改进的 Bangumi 同步错误提示 (@Predidit)\r\n- 其他构建系统改进 (@LiggMax)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.4/Kazumi_ios_2.1.4_no_sign.ipa",
+          "size": 28025683,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.1.3",
           "buildVersion": "20103",
           "date": "2026-05-29T03:00:35.000Z",
