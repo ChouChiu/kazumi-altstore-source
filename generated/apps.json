@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.1.5",
+          "buildVersion": "20105",
+          "date": "2026-06-11T14:31:04.000Z",
+          "localizedDescription": "- 现在批量下载功能支持并行视频解析 (@liangyuR @Predidit)\r\n- 修复更新功能不可用的问题 (@Predidit)\r\n- 修复下载文件大小计量不准确的问题 (#2177) (@Predidit)\r\n- 修复 android 平台手势快进可能导致崩溃的问题 (#2197) (@Predidit)\r\n- 修复特定情况下 webdav 同步无法正确更新选集位置的问题 (#2207) (@Predidit)\r\n- 代码结构优化 (@wqnmlgb151)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.5/Kazumi_ios_2.1.5_no_sign.ipa",
+          "size": 28035611,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.1.4",
           "buildVersion": "20104",
           "date": "2026-06-07T02:32:12.000Z",
