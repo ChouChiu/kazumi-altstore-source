@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.1.6",
+          "buildVersion": "20106",
+          "date": "2026-06-18T08:12:10.000Z",
+          "localizedDescription": "- 新增高级搜索支持 (@UzawaReisaQwQ @Predidit)\r\n- 图片预览现在支持多图浏览 (@LiggMax)\r\n- 新增播放器控制层自动隐藏时间设置 (@hl1282456555 @Predidit)\r\n- 改进桌面端触摸屏播放器交互 (#722 #2224) (@Predidit)\r\n- 新增播放调试信息中的视频码率显示 (@Predidit)\r\n- 修复特定情况下弹幕开关状态无法立即生效的问题 (@Predidit)\r\n- 新增 Linux arm64 构建支持 (#721) (@Yohane-Mashiro @Predidit)\r\n- 修复 Android 平台快进手势可能导致崩溃的问题 (#2211) (@Predidit)\r\n- 调整 Android 播放渲染路径，改善播放兼容性与超分辨率性能 (@Predidit)\r\n- 其他代码结构与构建系统改进 (@LiggMax)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.6/Kazumi_ios_2.1.6_no_sign.ipa",
+          "size": 28334562,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.1.5",
           "buildVersion": "20105",
           "date": "2026-06-11T14:31:04.000Z",
