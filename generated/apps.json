@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.1.7",
+          "buildVersion": "20107",
+          "date": "2026-06-25T13:27:15.000Z",
+          "localizedDescription": "- 现在 Bangumi 镜像功能与 Bangumi 同步功能可以兼容 (@Predidit)\r\n- 现在缓存视频支持播放记录功能 (@liangyuR)\r\n- 新增可选的追番计数器功能 (@UzawaReisaQwQ)\r\n- 新增实验性 windows arm 支持 (@NihilDigit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.1.7/Kazumi_ios_2.1.7_no_sign.ipa",
+          "size": 28341165,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.1.6",
           "buildVersion": "20106",
           "date": "2026-06-18T08:12:10.000Z",
