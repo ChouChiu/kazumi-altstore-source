@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.2.0",
+          "buildVersion": "20200",
+          "date": "2026-07-09T14:36:25.000Z",
+          "localizedDescription": "- 新增API规则支持 (@Predidit)\r\n- 新增 Windows 平台系统代理支持 (@Predidit)\r\n- 修复历史记录较多时应用启动卡顿的问题 (#2293) (#2233) (@Predidit)\r\n- 修复已经已完播剧集重复观看从结尾处开始的问题 (#2222) (@Predidit)\r\n- 修复部分 Android 设备硬件解码不生效的问题 (@Predidit)\r\n- 修复特定情况下播放器控制面板不会自动隐藏的问题 (@liangyuR)\r\n- 修复部分地区规则仓库镜像不可用的问题 (@Predidit)\r\n- 修复HTTP站点不可用的问题 (#2292) (@Predidit)\r\n- 更多的播放器控制面板动效 (@LiggMax)\r\n- 其他代码结构调整 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.0/Kazumi_ios_2.2.0_no_sign.ipa",
+          "size": 28150602,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.1.8",
           "buildVersion": "20108",
           "date": "2026-07-02T13:54:11.000Z",
