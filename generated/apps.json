@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.2.1",
+          "buildVersion": "20201",
+          "date": "2026-07-16T06:29:26.000Z",
+          "localizedDescription": "- 重新设计启动向导及多个页面 (@Predidit)\r\n- 新增 windows/macOS 平台缓存目录自定义功能 (#2237) (@NanoShiki @0Chencc)\r\n- 修复 android 平台动态取色不稳定的问题 (@Predidit)\r\n- 增强一起看功能可靠性 (#1710 #1850 #1992) (@ChEnylnti)\r\n- 增强桌面平台播放器快捷键的可靠性 (@Predidit)\r\n- 现在 Linux 平台支持外部播放器功能 (@Predidit)\r\n- 增强规则更新可靠性 (@Predidit)\r\n- 修复调试模式下热重载不可用的问题 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.1/Kazumi_ios_2.2.1_no_sign.ipa",
+          "size": 29172455,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.2.0",
           "buildVersion": "20200",
           "date": "2026-07-09T14:36:25.000Z",
