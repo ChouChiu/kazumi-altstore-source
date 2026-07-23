@@ -32,6 +32,24 @@
       },
       "versions": [
         {
+          "version": "2.2.3",
+          "buildVersion": "20203",
+          "date": "2026-07-23T05:09:55.000Z",
+          "localizedDescription": "> [!NOTE]\r\n> 这是 2.2.2 的热修复版本，更多更新日志参考 2.2.2",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.3/Kazumi_ios_2.2.3_no_sign.ipa",
+          "size": 29182954,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.2.2",
+          "buildVersion": "20202",
+          "date": "2026-07-23T04:16:20.000Z",
+          "localizedDescription": "- 修复长分页状态下可能出现重复条目的问题 (@wanxinlei1)\r\n- 改进的规则导入机制 (@Predidit)\r\n- 新增 Linux 平台 X11 硬件加速渲染支持 (@Predidit)\r\n- 其他 UI 改进 (@Predidit)\r\n- 其他文档改进 (@Axiaobo7788)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.2/Kazumi_ios_2.2.2_no_sign.ipa",
+          "size": 29183411,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.2.1",
           "buildVersion": "20201",
           "date": "2026-07-16T06:29:26.000Z",
