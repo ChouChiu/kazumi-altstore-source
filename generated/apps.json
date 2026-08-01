@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.2.6",
+          "buildVersion": "20206",
+          "date": "2026-08-01T10:29:14.000Z",
+          "localizedDescription": "- 修复图片加载问题",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.6/Kazumi_ios_2.2.6_no_sign.ipa",
+          "size": 29552334,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.2.5",
           "buildVersion": "20205",
           "date": "2026-07-30T17:01:02.000Z",
@@ -920,15 +929,6 @@
           "localizedDescription": "- 新增DLNA投屏功能 (#74) (@WhiteXero)\r\n- 新增外部播放器调用功能 (#23) (@WhiteXero)\r\n- 新增错误日志功能 (#84)\r\n- 适配低分辨率windows设备 (#32) (@WhiteXero)\r\n- 修复部分 NVIDIA 设备上视频非全屏状态下偶发的闪烁问题 (#83)\r\n- 修复iOS设备上全屏逻辑失效的问题 (#77)\r\n- 少量UI优化",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.2.3/Kazumi_ios_1.2.3_no_sign.ipa",
           "size": 32789895,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.2.2",
-          "buildVersion": "10202",
-          "date": "2024-07-21T02:13:25.000Z",
-          "localizedDescription": "- 新增托盘功能，现在在视频播放页使用 Esc 快捷键可以最小化到托盘 (#59) (@WhiteXero)\r\n- 更多的播放器手势 (长按倍速/双击暂停) (#70)\r\n- 修复解析器中的webview规则失效问题\r\n- 修复安卓平板上的导航栏问题 (#65)\r\n- 修复安卓平板上的设置页面排版问题 (#69)\r\n- 修复webdav第一次使用时的错误提示 (#66)\r\n- 修复一个可能的闪退问题\r\n- 现在播放进度恢复功能默认启用",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.2.2/Kazumi_ios_1.2.2_no_sign.ipa",
-          "size": 32704823,
           "minOSVersion": "13.0"
         }
       ]
