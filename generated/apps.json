@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.2.8",
+          "buildVersion": "20208",
+          "date": "2026-08-15T01:52:16.000Z",
+          "localizedDescription": "- 适配 flutter 3.47 (@Predidit)\r\n- 修复 windows 平台部分视频来源只能播放5秒零碎片段的问题 (#2265 #1976 #2301) (@Predidit)\r\n- 兼容更多非标准视频流 (@zhn1100)\r\n- 桌面平台UI性能优化 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.8/Kazumi_ios_2.2.8_no_sign.ipa",
+          "size": 29635192,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.2.7",
           "buildVersion": "20207",
           "date": "2026-08-08T08:17:26.000Z",
@@ -920,15 +929,6 @@
           "localizedDescription": "- 新增页面过渡动画\r\n- 新增播放器控制面板过渡动画\r\n- 修复 windows/Linux 平台部分视频源只能播放前4分钟的严重错误\r\n- 修复 Linux 平台托盘功能损坏的问题\r\n- 修复特定情况下拖动播放器进度条会发生闪烁的问题\r\n- 优化 Linux 打包流程 (@madoka773)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.2.5/Kazumi_ios_1.2.5_no_sign.ipa",
           "size": 32971695,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.2.4",
-          "buildVersion": "10204",
-          "date": "2024-07-28T02:54:44.000Z",
-          "localizedDescription": "- 添加实验性Linux支持 (@Predidit @madoka773)\r\n- 添加默认弹幕开关 (#92)\r\n- 修复windows低分辨率设备上部分页面文本溢出的问题\r\n- 修复android设备上特定情况下示例规则无法被修改的问题\r\n- 修复硬件解码开关不生效的问题\r\n- 轮换示例规则",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.2.4/Kazumi_ios_1.2.4_no_sign.ipa",
-          "size": 32967024,
           "minOSVersion": "13.0"
         }
       ]
