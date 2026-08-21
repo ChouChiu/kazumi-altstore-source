@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.2.9",
+          "buildVersion": "20209",
+          "date": "2026-08-21T06:53:25.000Z",
+          "localizedDescription": "- 优化弹幕检索匹配 (#2453) (@walker1211)\r\n- 重做 android 平台画中画实现，修复进出画中画时的布局异常 (@Predidit)\r\n- 修复 android 平台切换到后台后返回时缓冲卡住的问题 (@Predidit)\r\n- 修复 linux 平台重复启动导致本地数据被清空的问题 (#2462 #2027) (@walker1211)\r\n- 修复 macOS 平台窗口失焦后无法再次点击激活的问题 (#2457) (@walker1211)\r\n- 修复规则批量更新结果提示一闪而过的问题 (#2431) (@walker1211)\r\n- 从历史记录进入播放页时选集列表定位到当前集数 (@NanoShiki)\r\n- 其他 UI 调整 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.2.9/Kazumi_ios_2.2.9_no_sign.ipa",
+          "size": 29638292,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.2.8",
           "buildVersion": "20208",
           "date": "2026-08-15T01:52:16.000Z",
@@ -920,15 +929,6 @@
           "localizedDescription": "- 新增实验性 macOS 支持\r\n- 新增标签过滤器\r\n- 修复播放长度在1小时以上的视频时，时长显示不正确的问题 (@quyaoning)\r\n- 更好的日志记录",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.2.6/Kazumi_ios_1.2.6_no_sign.ipa",
           "size": 33036128,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.2.5",
-          "buildVersion": "10205",
-          "date": "2024-08-01T07:51:20.000Z",
-          "localizedDescription": "- 新增页面过渡动画\r\n- 新增播放器控制面板过渡动画\r\n- 修复 windows/Linux 平台部分视频源只能播放前4分钟的严重错误\r\n- 修复 Linux 平台托盘功能损坏的问题\r\n- 修复特定情况下拖动播放器进度条会发生闪烁的问题\r\n- 优化 Linux 打包流程 (@madoka773)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.2.5/Kazumi_ios_1.2.5_no_sign.ipa",
-          "size": 32971695,
           "minOSVersion": "13.0"
         }
       ]
