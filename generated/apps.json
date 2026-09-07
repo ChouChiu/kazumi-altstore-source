@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.3.1",
+          "buildVersion": "20301",
+          "date": "2026-09-07T14:33:57.000Z",
+          "localizedDescription": "- 重新设计的时间表页面 (@Predidit)\r\n- 重新设计的追番页面 (@Predidit)\r\n- 重新设计的我的页面 (@Predidit)\r\n- 重新设计的视频播放页面 (@Predidit)\r\n- 重新设计的规则管理页面 (@Predidit)\r\n- 重新设计的同步设置页面 (@Predidit)\r\n- 改进Bangumi同步流程 (@zhn1100)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.1/Kazumi_ios_2.3.1_no_sign.ipa",
+          "size": 29812172,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.3.0",
           "buildVersion": "20300",
           "date": "2026-08-28T04:25:26.000Z",
@@ -920,15 +929,6 @@
           "localizedDescription": "- 修复部分视频流在 windows/Linux 平台上无法播放的问题\r\n- 修复 Linux 平台部分源解析不出视频流的问题\r\n- 修复 webdav 同步特定情况下不生效的问题 (#166)\r\n- 支持更多播放倍速选项 (@st1020)\r\n- 现在使用随机 User-Agent\r\n- 现在禁用特定类型弹幕将立即清除该类型弹幕",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.2.8/Kazumi_ios_1.2.8_no_sign.ipa",
           "size": 33096307,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.2.7",
-          "buildVersion": "10207",
-          "date": "2024-08-19T04:57:06.000Z",
-          "localizedDescription": "- 新增弹幕来源过滤 (#122)\r\n- 新增手动匹配弹幕分集 (#123)\r\n- 新增弹幕属性热更新\r\n- 新增规则更新提醒\r\n- 修复特定情况下快捷键失效的问题 (#127)\r\n- 轮换示例规则\r\n",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.2.7/Kazumi_ios_1.2.7_no_sign.ipa",
-          "size": 33092715,
           "minOSVersion": "13.0"
         }
       ]
