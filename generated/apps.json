@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.3.7",
+          "buildVersion": "20307",
+          "date": "2026-09-30T10:52:08.000Z",
+          "localizedDescription": "- 改进的视频截图功能 (#1697 #1144) (@Predidit)\r\n- 新增弹幕简繁转换设置 (#1108 #1923) (@Predidit)\r\n- 番剧详情页面现在支持复制标题与保存封面 (#2575) (@Predidit)\r\n- 现在可以在滑动快进时滑至播放器边缘取消操作 (#2592) (@Predidit)\r\n- 新增 Bangumi 番剧条目 ECH 加速选项 (@Predidit)\r\n- 修复手动检索弹幕时搜索记录无法保留的问题 (@moonrailgun)\r\n- 修复部分视频来源无法触发人机验证的问题 (#2578) (@jzy834894319)\r\n- 修复 Linux 平台打开播放器、切换剧集或播放结束时可能崩溃的问题 (#2587) (@Predidit)\r\n- 修复桌面平台设置子页面窗口控制按钮重复显示的问题 (#2589) (@Predidit)\r\n- 修复切换原生标题栏设置后窗口控制按钮显示异常的问题 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.7/Kazumi_ios_2.3.7_no_sign.ipa",
+          "size": 30538813,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.3.6",
           "buildVersion": "20306",
           "date": "2026-09-23T11:56:14.000Z",
@@ -920,15 +929,6 @@
           "localizedDescription": "- 新增新番时间表日历切换功能 (#236)\r\n- 新增视频流详情查看功能\r\n- 现在 windows 平台外部播放功能可以自选播放器而不是强制浏览器 (#198)\r\n- 修复 Android 平台状态栏不正确的反色 (#240)\r\n- 回滚快进快退手势反馈 (#237)\r\n- Android/iOS 平台视频解析器改进",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.4/Kazumi_ios_1.3.4_no_sign.ipa",
           "size": 33207394,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.3.3",
-          "buildVersion": "10303",
-          "date": "2024-09-22T03:06:14.000Z",
-          "localizedDescription": "- 修复瀑布流内容可能为空的问题\r\n- 修复 windows 平台一个可能的内存泄露 (#185)\r\n- 修复特定场景下, windows 全屏不隐藏任务栏的问题 (#119)\r\n- 修复带有刘海/打孔的 Android/iOS 设备全屏时, 视频不在屏幕正中间的问题\r\n- 修复 Android 设备的一个屏幕旋转问题 (#230)\r\n- 现在修改播放器解码设置不再需要重启\r\n- 轮换示例规则",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.3/Kazumi_ios_1.3.3_no_sign.ipa",
-          "size": 33196256,
           "minOSVersion": "13.0"
         }
       ]
