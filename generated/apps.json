@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.3.8",
+          "buildVersion": "20308",
+          "date": "2026-10-07T03:41:05.000Z",
+          "localizedDescription": "- 优化截图交互 (#2599) (@Predidit)\r\n- 统一应用内下拉菜单样式 (@Predidit)\r\n- 修复大字体下番剧详情页追番按钮与其他按钮重叠而无法点击的问题 (#2622) (@Predidit)\r\n- 修复宽屏设置页重复点击已选中分类时二级页面重复嵌套的问题 (#2607) (@Predidit)\r\n- 修复鼠标悬停时播放器控制栏动画反复重启的问题 (@Predidit)\r\n- 修复分集评论标题栏显示多余副标题的问题 (@Predidit)\r\n- 其他UI改进 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.3.8/Kazumi_ios_2.3.8_no_sign.ipa",
+          "size": 30463104,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.3.7",
           "buildVersion": "20307",
           "date": "2026-09-30T10:52:08.000Z",
@@ -920,15 +929,6 @@
           "localizedDescription": "- 新增实验性弹幕发送功能\r\n- 重新设计的视频播放页面 (#92)\r\n- 修复 Android/macOS/iOS 软件解码无法播放特定格式视频的问题 \r\n- 修复番剧日历选择器无法选中当前季度的问题 (#260)\r\n- 调整弹幕检索UI\r\n- 更好的 macOS 平台图标 (@CAiNSEMBRACE) (#191)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.5/Kazumi_ios_1.3.5_no_sign.ipa",
           "size": 33172651,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.3.4",
-          "buildVersion": "10304",
-          "date": "2024-09-28T05:22:41.000Z",
-          "localizedDescription": "- 新增新番时间表日历切换功能 (#236)\r\n- 新增视频流详情查看功能\r\n- 现在 windows 平台外部播放功能可以自选播放器而不是强制浏览器 (#198)\r\n- 修复 Android 平台状态栏不正确的反色 (#240)\r\n- 回滚快进快退手势反馈 (#237)\r\n- Android/iOS 平台视频解析器改进",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.4/Kazumi_ios_1.3.4_no_sign.ipa",
-          "size": 33207394,
           "minOSVersion": "13.0"
         }
       ]
