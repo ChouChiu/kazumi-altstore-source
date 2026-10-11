@@ -39,7 +39,7 @@
     "@types/node": "^25.9.9",
     "lint-staged": "^16.4.0",
     "simple-git-hooks": "^2.14.0",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "packageManager": "bun@1.4.3"
 }
