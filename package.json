@@ -37,7 +37,7 @@
     "@maxchang/biome-config": "^0.1.8",
     "@types/bun": "latest",
     "@types/node": "^26.6.5",
-    "lint-staged": "^16.4.0",
+    "lint-staged": "^17.6.0",
     "simple-git-hooks": "^2.14.0",
     "typescript": "^7.0.2"
   },
