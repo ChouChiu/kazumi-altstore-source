@@ -32,6 +32,24 @@
       },
       "versions": [
         {
+          "version": "2.4.1",
+          "buildVersion": "20401",
+          "date": "2026-10-22T15:04:45.000Z",
+          "localizedDescription": "- 修复规则镜像在部分地区无法访问的问题 (#2747 #2748) (@Predidit)\r\n- 修复 linux 平台 deeplink 无法使用的问题 (@Tobiichi-Origuchi)\r\n> [!NOTE]\r\n> 这是 2.4.0 的热修复版本，更多更新日志参考 2.4.0",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.1/Kazumi_ios_2.4.1_no_sign.ipa",
+          "size": 30514613,
+          "minOSVersion": "13.0"
+        },
+        {
+          "version": "2.4.0",
+          "buildVersion": "20400",
+          "date": "2026-10-22T09:47:59.000Z",
+          "localizedDescription": "- 新增 deeplink 支持 (#2628 #2281) (@samuelhe52) (@Predidit)\r\n- 现在移动平台编辑弹幕时自动暂停播放 (#2708 #933) (@JesseLee-CN)\r\n- 播放器进度条现在显示目标时间 (@rua103)\r\n- 修复部分老旧 android 设备打开视频时一直加载的问题 (#2727) (@Predidit)\r\n- 文档更新 (@0Chencc)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.0/Kazumi_ios_2.4.0_no_sign.ipa",
+          "size": 30514666,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.3.9",
           "buildVersion": "20309",
           "date": "2026-10-14T13:21:43.000Z",
@@ -911,24 +929,6 @@
           "localizedDescription": "- 修复 1.3.7 中严重的内存泄露 (#310)\r\n- 修复 macOS 平台初始窗体过小的问题 (@ErBWs)\r\n- 优化集数显示 (@ErBWs)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.8/Kazumi_ios_1.3.8_no_sign.ipa",
           "size": 33207854,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.3.7",
-          "buildVersion": "10307",
-          "date": "2024-10-17T11:47:44.000Z",
-          "localizedDescription": "- 新增追番列表批量编辑功能\r\n- 修复特定情况下历史记录错位的问题 (#286)\r\n- 修复瀑布流页面加载失败时, 重试按钮不显示的问题\r\n- 修复播放进度小于10秒时, 快捷键快退不生效的问题 (#299)\r\n- 现在播放器解码失败会出现错误提示\r\n- 现在清空历史记录要求确认 (#300)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.7/Kazumi_ios_1.3.7_no_sign.ipa",
-          "size": 33211333,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.3.6",
-          "buildVersion": "10306",
-          "date": "2024-10-10T02:39:11.000Z",
-          "localizedDescription": "- 新增屏幕锁定功能 (#274)\r\n- 新增隐身模式 (#267)\r\n- 新增简易解析模式\r\n- 新增自定义 Referer 支持 (@KotaHv)\r\n- 修复 windows/Linux 平台下少数视频源无法播放的问题 (@KotaHv)\r\n- 修复低分辨率设备上历史记录页面文本溢出的问题 (#273)\r\n- 修复视频加载时无法拖动窗体的问题 (#273)\r\n- 轮换示例规则\r\n\r\n> [!IMPORTANT]\r\n> 规则API级别从2升级到3并向前兼容\r\n",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.6/Kazumi_ios_1.3.6_no_sign.ipa",
-          "size": 33175394,
           "minOSVersion": "13.0"
         }
       ]
