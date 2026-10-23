@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.4.2",
+          "buildVersion": "20402",
+          "date": "2026-10-23T09:43:33.000Z",
+          "localizedDescription": "- 修复部分地区规则仓库无法访问的问题",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.2/Kazumi_ios_2.4.2_no_sign.ipa",
+          "size": 30521004,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.4.1",
           "buildVersion": "20401",
           "date": "2026-10-22T15:04:45.000Z",
@@ -920,15 +929,6 @@
           "localizedDescription": "- 修复全屏模式概率白屏的问题 (#313)\r\n- 新增 macOS/iOS 外部播放器支持 (@ErBWs)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.9/Kazumi_ios_1.3.9_no_sign.ipa",
           "size": 33212466,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.3.8",
-          "buildVersion": "10308",
-          "date": "2024-10-18T04:50:59.000Z",
-          "localizedDescription": "- 修复 1.3.7 中严重的内存泄露 (#310)\r\n- 修复 macOS 平台初始窗体过小的问题 (@ErBWs)\r\n- 优化集数显示 (@ErBWs)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.8/Kazumi_ios_1.3.8_no_sign.ipa",
-          "size": 33207854,
           "minOSVersion": "13.0"
         }
       ]
