@@ -32,6 +32,15 @@
       },
       "versions": [
         {
+          "version": "2.4.3",
+          "buildVersion": "20403",
+          "date": "2026-11-04T12:12:33.000Z",
+          "localizedDescription": "- 新增自定义规则仓库支持 (#2485) (@chendianshuiyin)\r\n- 优化远程投屏体验 (#2797 #2798) (@DSplay123)\r\n- 新增 iPhone Duo 内屏支持 (@Predidit)\r\n- 修复批量下载时排队剧集没有缓存弹幕的问题 (#2780) (@wanxinlei1)\r\n- 修复退出后系统托盘图标残留的问题 (#2762) (@fgfsgsgvo)\r\n- 修复 deb 软件包在精简安装的发行版上无法启动的问题 (#2755) (@Huayuluoshi)\r\n- 优化追番页切换分类时的流畅度 (@Predidit)\r\n- 文档更新 (@Predidit)",
+          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/2.4.3/Kazumi_ios_2.4.3_no_sign.ipa",
+          "size": 30439714,
+          "minOSVersion": "13.0"
+        },
+        {
           "version": "2.4.2",
           "buildVersion": "20402",
           "date": "2026-10-23T09:43:33.000Z",
@@ -920,15 +929,6 @@
           "localizedDescription": "- 现在支持倒序排列的播放列表 (@ErBWs)\r\n- 改进的弹幕检索功能 (@Predidit)\r\n- 改进的macOS外部播放器支持 (@ErBWs)\r\n- 修复视频加载完成前多次切换选集可能死锁的问题 (@Predidit)\r\n- 修复特定情况下历史记录观看进度显示不正确的问题 (@ErBWs)\r\n- 修复缓存清除功能失效的问题 (#297) (@LeetaoGoooo)\r\n- 修复macOS上使用esc快捷键导致意外退出的问题 (#303) (@ErBWs)\r\n- 多处UI优化 (@ErBWs) (@LeetaoGoooo)",
           "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.4.0/Kazumi_ios_1.4.0_no_sign.ipa",
           "size": 33215385,
-          "minOSVersion": "13.0"
-        },
-        {
-          "version": "1.3.9",
-          "buildVersion": "10309",
-          "date": "2024-10-18T10:27:41.000Z",
-          "localizedDescription": "- 修复全屏模式概率白屏的问题 (#313)\r\n- 新增 macOS/iOS 外部播放器支持 (@ErBWs)",
-          "downloadURL": "https://github.com/Predidit/Kazumi/releases/download/1.3.9/Kazumi_ios_1.3.9_no_sign.ipa",
-          "size": 33212466,
           "minOSVersion": "13.0"
         }
       ]
